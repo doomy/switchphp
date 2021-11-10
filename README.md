@@ -8,5 +8,7 @@ currently works only with PHP 7.4 / PHP 8.0 versions. Savvy user should have no 
 copy it to wherever your executable folder `sudo cp switchphp /usr/bin/` and set executable rights `sudo chmod +x /usr/bin/switchphp`
 
 ## running
-`phpswitch 8.0 // switches from 7.4 to 8.0`
+`phpswitch 8.0` 
+
+Switches from 7.4 to 8.0. You can use with the 7.4 option to switch back.
 
