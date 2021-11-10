@@ -1,5 +1,5 @@
 # switchphp
-simple bash tool to switch php version used in apache &amp; console in ubuntu / debian based linux
+simple bash tool to reduce overhead when switching php version used in apache &amp; console in ubuntu / debian based linux
 
 ## limitations 
 currently works only with PHP 7.4 / PHP 8.0 versions. Savvy user should have no issues to change these to whichever versions one needs to alternate between. You still need to be aware which versions you have installed
