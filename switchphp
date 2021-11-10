@@ -1,0 +1,16 @@
+#!/bin/bash
+
+if [ $1 == '7.4' ]
+then
+	a2dismod php8.0
+elif [ $1 == '8.0' ]
+then
+	a2dismod php7.4
+else
+	echo "Invalid php version. Available versions: 7.4, 8.0"
+	exit
+fi
+
+a2enmod php$1
+service apache2 restart
+update-alternatives --set php /usr/bin/php$1
